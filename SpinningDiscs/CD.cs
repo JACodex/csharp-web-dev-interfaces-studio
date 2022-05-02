@@ -1,7 +1,7 @@
 ﻿using System;
 namespace SpinningDiscs
 {
-    internal class CD : SpinningMediaDisc, IBurnable
+    public class CD : SpinningMediaDisc, IBurnable
     {
         // TODO: Implement your custom interface.
 

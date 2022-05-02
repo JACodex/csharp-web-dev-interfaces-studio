@@ -9,7 +9,7 @@ namespace SpinningDiscs
         internal string Data { get; set; }
         internal bool isBlank { get; set; }
 
-        internal int? YearReleased { get; }
+        public int? YearReleased { get; }
 
         public  SpinningMediaDisc(string discData, bool discIsBlank, int date)
         {
